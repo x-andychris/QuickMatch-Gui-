@@ -1,0 +1,9 @@
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\bin\Debug\QuickMatch (GUI).exe.config
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\obj\Debug\QuickMatch (GUI).csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\obj\Debug\QuickMatch__GUI_.GUI.resources
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\obj\Debug\QuickMatch__GUI_.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\obj\Debug\QuickMatch (GUI).csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\bin\Debug\QuickMatch (GUI).exe
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\bin\Debug\QuickMatch (GUI).pdb
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\obj\Debug\QuickMatch (GUI).exe
+C:\Users\user\Documents\Visual Studio 2012\Project\QuickMatch (GUI)\QuickMatch (GUI)\obj\Debug\QuickMatch (GUI).pdb

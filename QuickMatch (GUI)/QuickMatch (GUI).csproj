@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{607D8C49-CCEC-41CE-A5A2-C3F569D81CCB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuickMatch__GUI_</RootNamespace>
+    <AssemblyName>QuickMatch %28GUI%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI.Designer.cs">
+      <DependentUpon>GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI.resx">
+      <DependentUpon>GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\031.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persona.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cards - Select.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cards.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty card slot.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\J - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K -  Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q - Clubs.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q - Diamonds.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q - Hearts.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q - Spades.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20190917_102234.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
